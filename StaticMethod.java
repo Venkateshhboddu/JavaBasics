@@ -1,4 +1,4 @@
-package basicprograms;
+package basicprograms.JavaBasics;
 
 public class StaticMethod {
 
@@ -6,16 +6,16 @@ public class StaticMethod {
 		// TODO Auto-generated method stub
 
 		StaticMethod sm = new StaticMethod();
-		sm.Add();
-		
+		StaticMethod.Add();
+
 	}
-	
+
 	static void Add() {
-		
+
 		int value1 = 12;
-		
+
 		int value2 = 23;
-		
+
 		System.out.println(value1+value2);
 	}
 

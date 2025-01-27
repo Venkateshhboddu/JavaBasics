@@ -1,4 +1,4 @@
-package basicprograms;
+package basicprograms.JavaBasics;
 
 public class DataTypesIntialization {
 
@@ -14,7 +14,7 @@ public class DataTypesIntialization {
 		char c ='a';
 		boolean value =true;
 		String str ="Venkatesh";
-		
+
 		System.out.println("The value stored in byte b is : "+b);
 		System.out.println("the value stired in short s is : "+s);
 		System.out.println("The value stored in int i is : "+i);
