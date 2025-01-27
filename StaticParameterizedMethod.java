@@ -1,14 +1,14 @@
-package basicprograms;
+package basicprograms.JavaBasics;
 
 public class StaticParameterizedMethod {
 
 	public static void main(String[] args) {
-		
+
 		add(8, 9);
 		multi(8, 8.3f);
 
 	}
-	
+
 	static void add(int a,int b)
 	{
 		int c =a+b;
@@ -16,7 +16,7 @@ public class StaticParameterizedMethod {
 	}
 
 	static void multi(int a , float b) {
-		
+
 		System.out.println(a*b);
 	}
 }
